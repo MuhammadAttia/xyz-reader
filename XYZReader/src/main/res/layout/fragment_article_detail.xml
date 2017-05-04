@@ -38,9 +38,9 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="@dimen/detail_card_top_margin"
                 android:background="#fff"
-                android:elevation="2dp"
                 android:maxWidth="@dimen/detail_card_max_width"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                app:elevation="2dp">
 
                 <LinearLayout
                     android:id="@+id/meta_bar"
@@ -71,8 +71,8 @@
                         style="?android:attr/textAppearanceSmall"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textStyle="bold"
-                        android:textColor="@color/White" />
+                        android:textColor="@color/White"
+                        android:textStyle="bold" />
                 </LinearLayout>
 
                 <TextView
@@ -107,5 +107,4 @@
         app:elevation="@dimen/fab_elevation"
         app:fabSize="normal"
         app:pressedTranslationZ="@dimen/fab_press_translation_z" />
-
 </com.example.xyzreader.ui.DrawInsetsFrameLayout>

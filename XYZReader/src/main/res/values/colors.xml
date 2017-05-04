@@ -14,10 +14,8 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-
 <resources>
     <color name="photo_placeholder">#ccc</color>
-
     <color name="colorPrimary">#673AB7</color>
     <color name="colorPrimaryDark">#512DA8</color>
     <color name="textColorPrimary">#212121</color>
